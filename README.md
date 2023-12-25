@@ -1,17 +1,27 @@
-### Building and running your application
+### Урок 1. Компиляция и интерпретация кода
 
-When you're ready, start your application by running:
-`docker compose up --build`.
+1. Создать приложение с вложенностью пакетов не менее 3х, где будет класс для входа и несколько классов с логикой. Пример: приложение для внесения заметок во внешний файл с обязательной фиксацией времени
+   пример:
+   Введите заметку: Hello, world!
+   Дозапись в файл: 16.07.2023 -> Hello, world
 
-### Deploying your application to the cloud
+    Скомпилируйте и запустите посредством CLI
 
-First, build your image, e.g.: `docker build -t myapp .`.
-If your cloud uses a different CPU architecture than your development
-machine (e.g., you are on a Mac M1 and your cloud provider is amd64),
-you'll want to build the image for that platform, e.g.:
-`docker build --platform=linux/amd64 -t myapp .`.
+        Решение: 
 
-Then, push it to your registry, e.g. `docker push myregistry.com/myapp`.
+        Команда для компиляции:
 
-Consult Docker's [getting started](https://docs.docker.com/go/get-started-sharing/)
-docs for more detail on building and pushing.
+        javac -sourcepath .\src -d out src/ru/serjeypyzin/javacore/sample/Main.java 
+
+        Команда для запуска:
+
+        java -classpath .\out ru.serjeypyzin.javacore.sample.Main 
+
+2. (доп) Создать два Docker-образа. Один должен компилировать Java-проект обратно в папку на компьютере пользователя, а второй забирать скомпилированные классы и исполнять их. Пример листинга для docker-compose приведен в презентации семинара
+        
+        Решение 1:
+        файл 1-й: docker-compose-compile.yaml
+        файл 2-й: docker-compose-run.yaml
+
+        Решение 2:
+        Общий Dockerfile объединяющий компиляцию и запуск проекта

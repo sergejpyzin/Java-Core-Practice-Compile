@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c5569a-fa77-470c-82e9-88f38217da4c" name="Changes" comment="changed all Dockerfiles and docker-compose files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="06c5569a-fa77-470c-82e9-88f38217da4c" name="Changes" comment="renamed README.Docker.md as README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Docker.docker-compose-run.yaml: Compose Deployment">
     <configuration name="Dockerfile-compile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
@@ -136,7 +135,7 @@
       <workItem from="1703271136793" duration="462000" />
       <workItem from="1703444173951" duration="98000" />
       <workItem from="1703491674999" duration="5719000" />
-      <workItem from="1703518444746" duration="3426000" />
+      <workItem from="1703518444746" duration="3731000" />
     </task>
     <task id="LOCAL-00001" summary="Start work">
       <option name="closed" value="true" />
@@ -202,7 +201,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703522288747</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed gitignore">
+      <option name="closed" value="true" />
+      <created>1703522506565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703522506565</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed gitignore">
+      <option name="closed" value="true" />
+      <created>1703522526223</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703522526223</updated>
+    </task>
+    <task id="LOCAL-00011" summary="renamed README.Docker.md as README.md">
+      <option name="closed" value="true" />
+      <created>1703522756957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703522756957</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +251,8 @@
     <MESSAGE value="created Dockerfile and docker-container" />
     <MESSAGE value="changed Dockerfile" />
     <MESSAGE value="changed all Dockerfiles and docker-compose files" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed all Dockerfiles and docker-compose files" />
+    <MESSAGE value="changed gitignore" />
+    <MESSAGE value="renamed README.Docker.md as README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed README.Docker.md as README.md" />
   </component>
 </project>
