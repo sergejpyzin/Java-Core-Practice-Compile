@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c5569a-fa77-470c-82e9-88f38217da4c" name="Changes" comment="changed Dockerfile">
-      <change afterPath="$PROJECT_DIR$/Dockerfile-compile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile-run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-run.yaml" afterDir="false" />
+    <list default="true" id="06c5569a-fa77-470c-82e9-88f38217da4c" name="Changes" comment="changed all Dockerfiles and docker-compose files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-compile.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <workItem from="1703271136793" duration="462000" />
       <workItem from="1703444173951" duration="98000" />
       <workItem from="1703491674999" duration="5719000" />
-      <workItem from="1703518444746" duration="2366000" />
+      <workItem from="1703518444746" duration="3426000" />
     </task>
     <task id="LOCAL-00001" summary="Start work">
       <option name="closed" value="true" />
@@ -197,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703513430872</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed all Dockerfiles and docker-compose files">
+      <option name="closed" value="true" />
+      <created>1703522288747</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703522288747</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +227,7 @@
     <MESSAGE value="created Main.java" />
     <MESSAGE value="created Dockerfile and docker-container" />
     <MESSAGE value="changed Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed Dockerfile" />
+    <MESSAGE value="changed all Dockerfiles and docker-compose files" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed all Dockerfiles and docker-compose files" />
   </component>
 </project>
