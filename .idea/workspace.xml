@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c5569a-fa77-470c-82e9-88f38217da4c" name="Changes" comment="created Main.java">
+    <list default="true" id="06c5569a-fa77-470c-82e9-88f38217da4c" name="Changes" comment="changed Dockerfile">
+      <change afterPath="$PROJECT_DIR$/Dockerfile-compile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile-run" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-run.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-compile.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +20,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,6 +57,74 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Docker.docker-compose-run.yaml: Compose Deployment">
+    <configuration name="Dockerfile-compile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile-compile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile-run" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile-run" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose-compile.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose-compile.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose-compile.yaml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose-compile.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose-run.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose-run.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose-run.yaml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose-compile.yaml.app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose-compile.yaml: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile-run" />
+        <item itemvalue="Docker.Dockerfile-compile" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +138,8 @@
       <workItem from="1703262350270" duration="807000" />
       <workItem from="1703271136793" duration="462000" />
       <workItem from="1703444173951" duration="98000" />
+      <workItem from="1703491674999" duration="5719000" />
+      <workItem from="1703518444746" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="Start work">
       <option name="closed" value="true" />
@@ -103,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703262464198</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created Dockerfile and docker-container">
+      <option name="closed" value="true" />
+      <created>1703510533878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703510533878</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed Dockerfile">
+      <option name="closed" value="true" />
+      <created>1703513430872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703513430872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +220,8 @@
     <MESSAGE value="created WriteFile.java" />
     <MESSAGE value="created UserInteraction.java" />
     <MESSAGE value="created Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Main.java" />
+    <MESSAGE value="created Dockerfile and docker-container" />
+    <MESSAGE value="changed Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed Dockerfile" />
   </component>
 </project>

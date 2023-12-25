@@ -1,0 +1,6 @@
+services:
+ app:
+  image: openjdk:20-oracle
+  command: java -classpath ./out ru.serjeypyzin.javacore.sample.Main
+  volumes:
+     - ./bin:/out

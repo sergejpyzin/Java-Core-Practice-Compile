@@ -1,0 +1,4 @@
+FROM openjdk:20 AS compiler
+WORKDIR /app
+COPY . .
+RUN javac -cp .:src/ru/serjeypyzin/javacore/sample/Main.java src/ru/serjeypyzin/javacore/regular/*

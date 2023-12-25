@@ -1,0 +1,8 @@
+services:
+ app:
+  image: openjdk:20-oracle
+  command: javac -cp ./src -d ./out ./src/ru/serjeypyzin/javacore/sample/Main.java
+  volumes:
+   - ./bin:/out
+   - ./src:/src
+   - ./lib:/lib
